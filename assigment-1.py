@@ -118,10 +118,19 @@
 # print(s)
 
 # 16 TH
-s1 = "welcome to the world of AI"
+# s1 = "welcome to the world of AI"
 
-at = s1.find("AI")
-print(at)
+# at = s1.find("AI")
+# print(at)
+
+# 17 TH
+s1 = "welcome to the world of AI"
+result = ""
+
+for i in range(len(s1)):
+    if(i % 2 ==0):
+        result += s1[i]
+print(result)
 
 
 
